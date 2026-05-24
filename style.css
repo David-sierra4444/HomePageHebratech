@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Graduate&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(195, 212, 207);
+    padding-top: 180px;
+    overflow-x: hidden;
+}
+
+
+.inic{
+    background-color: #525e53;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+
+
+.inic h1{
+    font-family: "Graduate", serif;
+    color: white;
+    font-size: 45px;
+}
+
+
+.nave{
+    background-color: #A5C9CA;
+    padding: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+
+    position: fixed;
+    top: 90px; 
+    width: 100%;
+    z-index: 999;
+}
+
+
+.nav-link{
+    color: black !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.nav-link:hover{
+    color: #2C3333 !important;
+    transform: scale(1.05);
+}
+
+
+
+
+.navbar-brand{
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    color: black !important;
+}
+
+
+
+
+button{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+
+
+
+button:hover{
+    transform: scale(1.05);
+    background-color: #7ba5a7 !important;
+    color: white;
+}
+
+
+
+
+h1{
+    font-family: "Graduate", serif;
+}
+
+
+
+h2,h3,h4,h5,h6{
+    font-family: "Fredoka", sans-serif;
+}
+
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+
+
+article{
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+img{
+    border-radius: 15px;
+}
+
+
+/* ACORDEON */
+
+.accordion-button{
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+}
+
+
+
+footer{
+    margin-top: 30px;
+}
+
+
+footer h3{
+    font-family: "Graduate", serif;
+}
+
+
+footer p{
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+footer i{
+    transition: 0.3s;
+}
+
+
+footer i:hover{
+    color: #A5C9CA;
+    transform: scale(1.2);
+}

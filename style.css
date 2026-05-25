@@ -154,3 +154,30 @@ footer i:hover{
     color: #A5C9CA;
     transform: scale(1.2);
 }
+.img-producto{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px){
+    .img-producto{
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 576px){
+    .img-producto{
+        height: 180px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 14px;
+    }
+}
